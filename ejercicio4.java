@@ -6,3 +6,4 @@ public class Main
         double euros = soles * tasaConversion;
         System.out.println(soles + " soles son equivalentes a " + euros + " euros.");
     }
+}

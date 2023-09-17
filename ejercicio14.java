@@ -16,7 +16,7 @@ public class Main {
         for (int i = diaSemana + 1; i <= 4; i++) {
         minutosHastaFinDeSemana +=24 * 60;
         }
-        minutosHastaFinDeSemana += (15 - hora) * 60;
+        minutosHastaFinDeSemana += (15) * 60;
         }
         System.out.println("Minutos hasta el fin de semana: " + minutosHastaFinDeSemana);
     }
